@@ -1,9 +1,10 @@
-package umkc.nathangawith.com.umpirebuddy;
+package umkc.nathangawith.com.cs449lab1umpirebuddy;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,9 +39,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // clear button click event
-    public void btnClearClick(View view) {
+    public void btnResetClick(View view) {
         this.cntBall = 0;
         this.cntStrike = 0;
         this.updateLabels();
+    }
+
+    // exit button click event
+    public void btnExitClick(View view) {
+        android.os.Process.killProcess(android.os.Process.myPid());
     }
 }

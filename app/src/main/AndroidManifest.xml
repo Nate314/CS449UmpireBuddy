@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="umkc.nathangawith.com.umpirebuddy">
+    package="umkc.nathangawith.com.cs449lab1umpirebuddy">
 
     <application
         android:allowBackup="true"
