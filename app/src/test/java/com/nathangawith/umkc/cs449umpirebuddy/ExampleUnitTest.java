@@ -1,4 +1,4 @@
-package umkc.nathangawith.com.cs449lab1umpirebuddy;
+package com.nathangawith.umkc.cs449umpirebuddy;
 
 import org.junit.Test;
 

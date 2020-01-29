@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>CS449Lab1UmpireBuddy</name>
-	<comment>Project CS449Lab1UmpireBuddy created by Buildship.</comment>
+	<name>CS449UmpireBuddy</name>
+	<comment>Project CS449UmpireBuddy created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 </projectDescription>

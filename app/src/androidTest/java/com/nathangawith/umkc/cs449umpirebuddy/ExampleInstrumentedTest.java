@@ -1,4 +1,4 @@
-package umkc.nathangawith.com.cs449lab1umpirebuddy;
+package com.nathangawith.umkc.cs449umpirebuddy;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("umkc.nathangawith.com.cs449lab1umpirebuddy", appContext.getPackageName());
+        assertEquals("com.nathangawith.umkc.cs449umpirebuddy", appContext.getPackageName());
     }
 }

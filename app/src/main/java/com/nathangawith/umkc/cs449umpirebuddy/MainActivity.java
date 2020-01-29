@@ -1,9 +1,8 @@
-package umkc.nathangawith.com.cs449lab1umpirebuddy;
+package com.nathangawith.umkc.cs449umpirebuddy;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
