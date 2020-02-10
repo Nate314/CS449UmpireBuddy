@@ -12,7 +12,7 @@ A 'Reset' button that restores both counters to 0 and updates the display accord
 
 An 'Exit' button to end the app.
 
-# UMKC CS449 Lab1 - Umpire Buddy 2.0
+# UMKC CS449 Lab2 - Umpire Buddy 2.0
 
 There are 2 events that you must check for:
 If the batter strikes out, or walks. The umpire buddy should perform as follows, based on which event occurs first:
