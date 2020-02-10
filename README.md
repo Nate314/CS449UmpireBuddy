@@ -3,6 +3,8 @@ If you want to look at the work for lab1 or lab2 separately, I have created sepa
 
 # UMKC CS449 Lab2 - Umpire Buddy 2.0
 
+Video demonstration -> https://www.youtube.com/watch?v=pcrJ3wA3aVE
+
 There are 2 events that you must check for:
 If the batter strikes out, or walks. The umpire buddy should perform as follows, based on which event occurs first:
 - If the number of strikes == 3, then the batter has struck out. A popup should appear that says "Out!" The popup will need a button or icon to clear it--any built-in functionality in the message window is fine for this.
@@ -12,6 +14,8 @@ If the batter strikes out, or walks. The umpire buddy should perform as follows,
 Also add an "About" button showing a new screen or window, containing the name of the program (Umpire Buddy 2.0), and your name.
 
 # UMKC CS449 Lab1 - Umpire Buddy 1.0
+
+Video demonstration -> https://www.youtube.com/watch?v=dRaT5RybJ1Y
 
 For lab #1, implement Umpire Buddy, version 1.0.
 
