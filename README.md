@@ -1,3 +1,6 @@
+### Note
+If you want to look at the work for lab1 or lab2 separately, I have created separate branches.
+
 # UMKC CS449 Lab2 - Umpire Buddy 2.0
 
 There are 2 events that you must check for:
