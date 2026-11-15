@@ -1,0 +1,15 @@
+services:
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # The repo is mounted so the APK lands in app/build/outputs/apk/ on the host.
+    volumes:
+      - .:/project
+      - gradle-cache:/root/.gradle
+    command: ./gradlew --no-daemon -Dorg.gradle.jvmargs=-Xmx2g test assembleDebug
+    # Runs once and exits: no ports, no restart.
+    restart: "no"
+
+volumes:
+  gradle-cache:
