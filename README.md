@@ -1,3 +1,6 @@
+## Building
+`./run.ps1` (or `./run.sh`) builds the debug APK in a Docker container with the Android SDK. It runs the unit tests and writes the APK to `app/build/outputs/apk/debug/app-debug.apk`. Follow the build with `./run.ps1 logs -f build`.
+
 ### Note
 If you want to look at the work for lab1 or lab2 separately, I have created separate branches.
 
