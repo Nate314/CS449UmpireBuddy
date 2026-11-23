@@ -1,0 +1,6 @@
+.git
+.gradle
+.env
+build
+app/build
+compose-launcher
